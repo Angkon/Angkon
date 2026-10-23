@@ -2,8 +2,7 @@
 
 Researcher at Purdue University, West Lafayette, Indiana. This profile is organized as a research portfolio: every project, agent skill, and method I produce lives in its own repository, and this page is the index.
 
-<!-- TODO(angkon): one or two sentences on your research focus, group, and current position. -->
-
+I am focused on agentic workflows invested in medical intervention.
 ## Portfolio map
 
 | Category | What goes there | Repositories |
