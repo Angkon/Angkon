@@ -1,6 +1,6 @@
 # Angkon Biswas
 
-Graduate researcher in the School of Mechanical Engineering at Purdue University, West Lafayette, Indiana. I work on scientific machine learning for medical flow imaging: physics-informed, unsupervised reconstruction of blood flow from MRI, built in JAX. Alongside the research I build skills for coding agents (Claude Code and Codex) and keep the methods they help derive in a reusable, documented form.
+Graduate researcher in the School of Mechanical Engineering at Purdue University, West Lafayette, Indiana. My focus is agentic workflows for medical intervention: scientific machine learning for medical flow imaging, in particular physics-informed, unsupervised reconstruction of blood flow from MRI built in JAX, with coding agents (Claude Code and Codex) as part of the research workflow. The skills I write for those agents, and the methods they help derive, are kept in reusable, documented form here.
 
 <!-- TODO(angkon): confirm the position and group above, and add advisor or lab if you want it listed. -->
 
