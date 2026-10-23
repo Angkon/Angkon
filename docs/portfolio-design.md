@@ -35,7 +35,7 @@ Organize github.com/Angkon as a research portfolio. Everything produced as part 
 
 1. **Visibility.** Create the four repositories private first. `Angkon/Angkon` must be public for the profile README to appear, so switch it once the placeholder text is filled in.
 2. **Profile text.** Research focus, group, and position in the profile README are placeholders.
-3. **Private repositories.** Whether to name SMURF and MIME on the public profile.
+3. **Private repositories.** SMURF is named on the profile although private; MIME is an empty placeholder and is not listed.
 4. **Licenses.** MIT is a placeholder choice.
 5. **Template flag.** `research-project-template` should be marked as a template repository in its settings so "Use this template" appears.
 

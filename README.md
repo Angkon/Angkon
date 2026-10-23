@@ -1,36 +1,39 @@
 # Angkon Biswas
 
-Researcher at Purdue University, West Lafayette, Indiana. This profile is organized as a research portfolio: every project, agent skill, and method I produce lives in its own repository, and this page is the index.
+Graduate researcher in the School of Mechanical Engineering at Purdue University, West Lafayette, Indiana. I work on scientific machine learning for medical flow imaging: physics-informed, unsupervised reconstruction of blood flow from MRI, built in JAX. Alongside the research I build skills for coding agents (Claude Code and Codex) and keep the methods they help derive in a reusable, documented form.
 
-I am focused on agentic workflows invested in medical intervention.
-## Portfolio map
+<!-- TODO(angkon): confirm the position and group above, and add advisor or lab if you want it listed. -->
 
-| Category | What goes there | Repositories |
-|---|---|---|
-| Research projects | One repository per project: code, experiments, results, write-ups. New ones start from the project template. | [SMURF](https://github.com/Angkon/SMURF) (private): physics-informed neural networks in JAX and Equinox with random weight factorization and Fourier feature layers, trained on Purdue's Gautschi cluster · MIME (private, placeholder) |
-| Agent skills | Skills I write for Claude Code and Codex in the shared `SKILL.md` format, installable in either tool. | [agent-skills](https://github.com/Angkon/agent-skills) |
-| Methods | Reusable research methods, derived by me, by an agent, or together, each with provenance and validation notes. | [research-methods](https://github.com/Angkon/research-methods) |
-| Templates | Starting points so new repositories stay consistent. | [research-project-template](https://github.com/Angkon/research-project-template) |
-| Coursework | Course material and problem sets. | [Intermediate-Fluid-Mech](https://github.com/Angkon/Intermediate-Fluid-Mech) |
+## Research
 
-## How the portfolio is organized
-
-- **One repository per unit of work.** A project, the skill collection, the method collection, and the template each get their own repository so they can be cited, forked, and archived independently.
-- **Consistent READMEs.** Every project README answers the same questions in the same order: what it is, its status, how to run it, how to reproduce the results, which agents and methods were used, and how to cite it.
-- **Provenance is recorded.** Methods and skills state whether a person, an agent, or both produced them, and with which tool and model.
-- **Topics mark categories.** Repositories carry the GitHub topics `research-project`, `agent-skill`, or `research-method` so they can be filtered from the profile page.
-
-## Starting something new
-
-| I want to... | Do this |
+| Repository | What it is |
 |---|---|
-| Start a project | Click "Use this template" on `research-project-template`, then add the new repository to the map above. |
-| Add a skill | Add a folder under `skills/` in `agent-skills` and run `scripts/build_catalog.py`. |
-| Record a method | Copy `methods/_template` in `research-methods` and fill in `METHOD.md`. |
+| [SMURF](https://github.com/Angkon/SMURF) (private) | Physics-informed extension of SMURF (Hans et al., 2025) from 4D flow MRI to 2D phase-contrast MRI. Joint unsupervised segmentation and velocity and pressure reconstruction with Fourier-feature, random-weight-factorized MLPs, plus divergence, Navier-Stokes and pressure-Poisson residual losses. JAX, Equinox, Optax; sweeps on Purdue's Gautschi H100 cluster. |
 
-The design behind this layout, and the decisions still open, are in [docs/portfolio-design.md](docs/portfolio-design.md).
+New projects start from [research-project-template](https://github.com/Angkon/research-project-template) and are added here.
+
+## Agent tooling and methods
+
+| Repository | What it is |
+|---|---|
+| [agent-skills](https://github.com/Angkon/agent-skills) | Skills for Claude Code and Codex in the shared `SKILL.md` format, with an installer that links them into both tools and a CI-checked catalog. |
+| [research-methods](https://github.com/Angkon/research-methods) | Reusable methods, derived by me, by an agent, or together, each with a `METHOD.md` recording procedure, validation and provenance. |
+| [research-project-template](https://github.com/Angkon/research-project-template) | Starting point for project repositories: layout, `AGENTS.md` shared by both agents, CI, citation file. |
+
+## Coursework
+
+- [Intermediate-Fluid-Mech](https://github.com/Angkon/Intermediate-Fluid-Mech): course material and problem sets.
+
+## How this portfolio is organized
+
+- One repository per unit of work, so each can be cited, forked and archived on its own.
+- Project READMEs answer the same questions in the same order: what, status, how to run, how to reproduce, which agents and methods were used, how to cite.
+- Provenance is recorded for methods and skills: person, agent or both, with tool and model.
+- Repositories carry the topics `research-project`, `agent-skill` or `research-method`.
+
+The reasoning behind the layout and the decisions still open are in [docs/portfolio-design.md](docs/portfolio-design.md).
 
 ## Contact
 
 - GitHub: [@Angkon](https://github.com/Angkon)
-<!-- TODO(angkon): email, Google Scholar, ORCID, lab page. -->
+<!-- TODO(angkon): email, Google Scholar, ORCID. -->
